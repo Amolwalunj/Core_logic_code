@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Record name="RECORD_ID003_fmt_" type="fixed">
+<Field name="fips" type="string" nullable="true" size="5" pcl_section="true"  />
+<Field name="prop_id" type="numeric" nullable="true" size="10" format="##########" pcl_section="true"  />
+<Field name="pcl" type="string" nullable="false" size="60" pcl_section="true"  />
+<Field name="pcl_seq" type="numeric" nullable="false" size="3" format="###" pcl_section="true"  />
+<Field name="iris_apn" type="string" nullable="true" size="60" pcl_section="true"  />
+<Field name="apn" type="string" nullable="true" size="60" pcl_section="true"  />
+<Field name="parent_pcl" type="string" nullable="true" size="60" pcl_section="true"  />
+<Field name="prior_pcl" type="string" nullable="true" size="60" pcl_section="true"  />
+<Field name="prior_pcl_seq" type="numeric" nullable="true" size="3" format="###" pcl_section="true"  />
+<Field name="prior_iris_pcl" type="string" nullable="true" size="60" pcl_section="true"  />
+<Field name="oth_match_info" type="string" nullable="true" size="60" pcl_section="true"  />
+<Field name="oth_match_seq" type="numeric" nullable="true" size="3" format="###" pcl_section="true"  />
+<Field name="ref_pcl" type="string" nullable="true" size="60" pcl_section="true"  />
+<Field name="orig_apn" type="string" nullable="true" size="60" pcl_section="true"  />
+<Field name="cust_alt_info" type="string" nullable="true" size="60" pcl_section="true"  />
+<Field name="alt_apn" type="string" nullable="true" size="60" pcl_section="true"  />
+<Field name="acct_nbr" type="string" nullable="true" size="30" pcl_section="true"  />
+<Field name="raw_sit_typ" type="string" nullable="true" size="1" pcl_section="true"  />
+<Field name="raw_sit_addr" type="string" nullable="true" size="60" pcl_section="true"  />
+<Field name="raw_sit_city" type="string" nullable="true" size="40" pcl_section="true"  />
+<Field name="raw_sit_zip" type="string" nullable="true" size="9" pcl_section="true"  />
+<Field name="map_rng" type="string" nullable="true" size="3" pcl_section="true"  />
+<Field name="map_sec" type="string" nullable="true" size="2" pcl_section="true"  />
+<Field name="map_twp" type="string" nullable="true" size="3" pcl_section="true"  />
+<Field name="map_sec_qtr" type="string" nullable="true" size="2" pcl_section="true"  />
+<Field name="map_sec_16" type="string" nullable="true" size="2" pcl_section="true"  />
+<Field name="map_ref1" type="string" nullable="true" size="60" pcl_section="true"  />
+<Field name="map_ref1_typ" type="string" nullable="true" size="5" pcl_section="true"  />
+<Field name="map_ref2" type="string" nullable="true" size="60" pcl_section="true"  />
+<Field name="map_ref2_typ" type="string" nullable="true" size="5" pcl_section="true"  />
+<Field name="map_atlas_ref1" type="string" nullable="true" size="20" pcl_section="true"  />
+<Field name="map_atlas_ref2" type="string" nullable="true" size="20" pcl_section="true"  />
+<Field name="map_link" type="string" nullable="true" size="20" pcl_section="true"  />
+<Field name="ownr_cnty_nm1" type="string" nullable="true" size="60" pcl_section="true"  />
+<Field name="ownr_cnty_nm2" type="string" nullable="true" size="60" pcl_section="true"  />
+<Field name="ownr_cnty_nm3" type="string" nullable="true" size="60" pcl_section="true"  />
+<Field name="ownr_cnty_nm4" type="string" nullable="true" size="60" pcl_section="true"  />
+<Field name="ownr_orig_nm1" type="string" nullable="true" size="60" pcl_section="true"  />
+<Field name="ownr_orig_nm2" type="string" nullable="true" size="60" pcl_section="true"  />
+<Field name="ownr_orig_nm3" type="string" nullable="true" size="60" pcl_section="true"  />
+<Field name="ownr_orig_nm4" type="string" nullable="true" size="60" pcl_section="true"  />
+<Field name="co_nm" type="string" nullable="true" size="60" pcl_section="true"  />
+<Field name="co_nm2" type="string" nullable="true" size="60" pcl_section="true"  />
+<Field name="co_nm3" type="string" nullable="true" size="60" pcl_section="true"  />
+<Field name="raw_mail_addr" type="string" nullable="true" size="60" pcl_section="true"  />
+<Field name="raw_mail_addr2" type="string" nullable="true" size="60" pcl_section="true"  />
+<Field name="raw_mail_addr3" type="string" nullable="true" size="60" pcl_section="true"  />
+<Field name="raw_mail_addr4" type="string" nullable="true" size="60" pcl_section="true"  />
+<Field name="raw_mail_city" type="string" nullable="true" size="40" pcl_section="true"  />
+<Field name="raw_mail_st" type="string" nullable="true" size="2" pcl_section="true"  />
+<Field name="raw_mail_zip" type="string" nullable="true" size="9" pcl_section="true"  />
+<Field name="raw_mail_cntry" type="string" nullable="true" size="30" pcl_section="true"  />
+<Field name="raw_mail_csz" type="string" nullable="true" size="60" pcl_section="true"  />
+<Field name="assd_yr1" type="numeric" nullable="true" size="4" format="####" pcl_section="true"  />
+<Field name="assd_yr2" type="numeric" nullable="true" size="4" format="####" pcl_section="true"  />
+<Field name="assd_land" type="numeric" nullable="true" size="11" format="###########" pcl_section="true"  />
+<Field name="assd_impv" type="numeric" nullable="true" size="9" format="#########" pcl_section="true"  />
+<Field name="assd_fixt" type="numeric" nullable="true" size="9" format="#########" pcl_section="true"  />
+<Field name="assd_othr" type="numeric" nullable="true" size="9" format="#########" pcl_section="true"  />
+<Field name="assd_tmbr" type="numeric" nullable="true" size="9" format="#########" pcl_section="true"  />
+<Field name="assd_pp" type="numeric" nullable="true" size="9" format="#########" pcl_section="true"  />
+<Field name="assd_total" type="numeric" nullable="true" size="11" format="###########" pcl_section="true"  />
+<Field name="hm_exmpt" type="string" nullable="true" size="3" pcl_section="true"  />
+<Field name="hm_exmpt_amt" type="numeric" nullable="true" size="9" format="#########" pcl_section="true"  />
+<Field name="exmpt_amt" type="numeric" nullable="true" size="9" format="#########" pcl_section="true"  />
+<Field name="tx_yr1" type="numeric" nullable="true" size="4" format="####" pcl_section="true"  />
+<Field name="tx_yr2" type="numeric" nullable="true" size="4" format="####" pcl_section="true"  />
+<Field name="tx_roll_dt" type="numeric" nullable="true" size="8" format="########" pcl_section="true"  />
+<Field name="tx_amt_ttl" type="numeric" nullable="true" size="12" format="#########0.00" pcl_section="true"  />
+<Field name="tx_area" type="string" nullable="true" size="8" pcl_section="true"  />
+<Field name="pr_tx_yr1" type="numeric" nullable="true" size="4" format="####" pcl_section="true"  />
+<Field name="pr_tx_yr2" type="numeric" nullable="true" size="4" format="####" pcl_section="true"  />
+<Field name="pr_tx_amt" type="numeric" nullable="true" size="12" format="#########0.00" pcl_section="true"  />
+<Field name="pr2_tx_yr1" type="numeric" nullable="true" size="4" format="####" pcl_section="true"  />
+<Field name="pr2_tx_yr2" type="numeric" nullable="true" size="4" format="####" pcl_section="true"  />
+<Field name="pr2_tx_amt" type="numeric" nullable="true" size="12" format="#########0.00" pcl_section="true"  />
+<Field name="RawLandUse" type="string" nullable="true" size="10" pcl_section="true"  />
+<Field name="cnty_use" type="string" nullable="true" size="10" pcl_section="true"  />
+<Field name="cnty_use_desc" type="string" nullable="true" size="30" pcl_section="true"  />
+<Field name="st_use" type="string" nullable="true" size="10" pcl_section="true"  />
+<Field name="st_use_desc" type="string" nullable="true" size="30" pcl_section="true"  />
+<Field name="maj_lnd_use" type="string" nullable="true" size="10" pcl_section="true"  />
+<Field name="lot_sf" type="numeric" nullable="true" size="9" format="#########" pcl_section="true"  />
+<Field name="fi_lot_sf" type="numeric" nullable="true" size="9" format="#########" pcl_section="true"  />
+<Field name="acres" type="numeric" nullable="true" size="14" format="#########0.0000" pcl_section="true"  />
+<Field name="fi_acres" type="numeric" nullable="true" size="14" format="#########0.0000" pcl_section="true"  />
+<Field name="lot_depth" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="lot_front" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="fi_lot_depth" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="fi_lot_front" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="short_lgl" type="string" nullable="true" size="35" pcl_section="true"  />
+<Field name="lgl_ovr" type="string" nullable="true" size="1" pcl_section="true"  />
+<Field name="long_lgl1" type="string" nullable="true" size="250" pcl_section="true"  />
+<Field name="long_lgl2" type="string" nullable="true" size="250" pcl_section="true"  />
+<Field name="long_lgl3" type="string" nullable="true" size="250" pcl_section="true"  />
+<Field name="blk" type="string" nullable="true" size="5" pcl_section="true"  />
+<Field name="blk_sfx" type="string" nullable="true" size="1" pcl_section="true"  />
+<Field name="fi_blk" type="string" nullable="true" size="5" pcl_section="true"  />
+<Field name="fi_blk_sfx" type="string" nullable="true" size="1" pcl_section="true"  />
+<Field name="lot" type="string" nullable="true" size="5" pcl_section="true"  />
+<Field name="lot_sfx" type="string" nullable="true" size="1" pcl_section="true"  />
+<Field name="fi_lot" type="string" nullable="true" size="5" pcl_section="true"  />
+<Field name="fi_lot_sfx" type="string" nullable="true" size="5" pcl_section="true"  />
+<Field name="lot2" type="string" nullable="true" size="5" pcl_section="true"  />
+<Field name="lot2_sfx" type="string" nullable="true" size="1" pcl_section="true"  />
+<Field name="fi_lot2" type="string" nullable="true" size="5" pcl_section="true"  />
+<Field name="fi_lot2_sfx" type="string" nullable="true" size="1" pcl_section="true"  />
+<Field name="LegalLot3" type="string" nullable="true" size="5" pcl_section="true"  />
+<Field name="LegalLot4" type="string" nullable="true" size="5" pcl_section="true"  />
+<Field name="LegalLot5" type="string" nullable="true" size="5" pcl_section="true"  />
+<Field name="LegalLot6" type="string" nullable="true" size="5" pcl_section="true"  />
+<Field name="LegalLot7" type="string" nullable="true" size="5" pcl_section="true"  />
+<Field name="LegalLot8" type="string" nullable="true" size="5" pcl_section="true"  />
+<Field name="LegalLot9" type="string" nullable="true" size="5" pcl_section="true"  />
+<Field name="LegalLot10" type="string" nullable="true" size="5" pcl_section="true"  />
+<Field name="LegalLot11" type="string" nullable="true" size="5" pcl_section="true"  />
+<Field name="LegalLot12" type="string" nullable="true" size="5" pcl_section="true"  />
+<Field name="LegalLot13" type="string" nullable="true" size="5" pcl_section="true"  />
+<Field name="LegalLot14" type="string" nullable="true" size="5" pcl_section="true"  />
+<Field name="LegalLot15" type="string" nullable="true" size="5" pcl_section="true"  />
+<Field name="LegalLot16" type="string" nullable="true" size="5" pcl_section="true"  />
+<Field name="LegalLot17" type="string" nullable="true" size="5" pcl_section="true"  />
+<Field name="LegalLot18" type="string" nullable="true" size="5" pcl_section="true"  />
+<Field name="LegalLot19" type="string" nullable="true" size="5" pcl_section="true"  />
+<Field name="LegalLot20" type="string" nullable="true" size="5" pcl_section="true"  />
+<Field name="cnty_sbdv_cd" type="string" nullable="true" size="20" pcl_section="true"  />
+<Field name="sbdv_cd" type="string" nullable="true" size="10" pcl_section="true"  />
+<Field name="sbdv_nm" type="string" nullable="true" size="60" pcl_section="true"  />
+<Field name="plat_bk" type="string" nullable="true" size="10" pcl_section="true"  />
+<Field name="plat_pg" type="string" nullable="true" size="10" pcl_section="true"  />
+<Field name="tract" type="string" nullable="true" size="10" pcl_section="true"  />
+<Field name="fi_tract" type="string" nullable="true" size="10" pcl_section="true"  />
+<Field name="zoning" type="string" nullable="true" size="14" pcl_section="true"  />
+<Field name="zoning_desc" type="string" nullable="true" size="30" pcl_section="true"  />
+<Field name="fi_zoning" type="string" nullable="true" size="15" pcl_section="true"  />
+<Field name="mh_flag" type="string" nullable="true" size="1" pcl_section="true"  />
+<Field name="fld_pnl" type="string" nullable="true" size="11" pcl_section="true"  />
+<Field name="fld_zn" type="string" nullable="true" size="5" pcl_section="true"  />
+<Field name="fld_zn_dpth" type="numeric" nullable="true" size="3" format="###" pcl_section="true"  />
+<Field name="fld_zn_dt" type="numeric" nullable="true" size="8" format="########" pcl_section="true"  />
+<Field name="fld_zn_elev" type="numeric" nullable="true" size="4" format="####" pcl_section="true"  />
+<Field name="fld_zn_ind" type="string" nullable="true" size="1" pcl_section="true"  />
+<Field name="frcl_chrono_dt" type="numeric" nullable="true" size="8" format="########" pcl_section="true"  />
+<Field name="frcl_ind" type="string" nullable="true" size="3" pcl_section="true"  />
+<Field name="kpu_sit_cd" type="string" nullable="true" size="1" pcl_section="true"  />
+<Field name="BypSlsRejInd" type="string" nullable="true" size="1" pcl_section="true"  />
+<Field name="pr_assd_yr" type="numeric" nullable="true" size="4" format="####" pcl_section="true"  />
+<Field name="pr_impv" type="numeric" nullable="true" size="9" format="#########" pcl_section="true"  />
+<Field name="pr_land" type="numeric" nullable="true" size="9" format="#########" pcl_section="true"  />
+<Field name="pr_total" type="numeric" nullable="true" size="9" format="#########" pcl_section="true"  />
+<Field name="pr_appr_impv" type="numeric" nullable="true" size="9" format="#########" pcl_section="true"  />
+<Field name="pr_appr_land" type="numeric" nullable="true" size="9" format="#########" pcl_section="true"  />
+<Field name="pr_appr_total" type="numeric" nullable="true" size="11" format="###########" pcl_section="true"  />
+<Field name="pr_mkt_impv" type="numeric" nullable="true" size="9" format="#########" pcl_section="true"  />
+<Field name="pr_mkt_land" type="numeric" nullable="true" size="9" format="#########" pcl_section="true"  />
+<Field name="pr_mkt_total" type="numeric" nullable="true" size="11" format="###########" pcl_section="true"  />
+<Field name="pr_net_tx_amt" type="numeric" nullable="true" size="12" format="#########0.00" pcl_section="true"  />
+<Field name="pr_net_tx_amt_yr1" type="numeric" nullable="true" size="4" format="####" pcl_section="true"  />
+<Field name="pr_net_tx_amt_yr2" type="numeric" nullable="true" size="4" format="####" pcl_section="true"  />
+<Field name="pr_txbl_impv" type="numeric" nullable="true" size="9" format="#########" pcl_section="true"  />
+<Field name="pr_txbl_land" type="numeric" nullable="true" size="9" format="#########" pcl_section="true"  />
+<Field name="pr_txbl_total" type="numeric" nullable="true" size="11" format="###########" pcl_section="true"  />
+<Field name="pr2_assd_yr" type="numeric" nullable="true" size="4" format="####" pcl_section="true"  />
+<Field name="pr2_assd_impv" type="numeric" nullable="true" size="9" format="#########" pcl_section="true"  />
+<Field name="pr2_assd_land" type="numeric" nullable="true" size="9" format="#########" pcl_section="true"  />
+<Field name="pr2_assd_total" type="numeric" nullable="true" size="11" format="###########" pcl_section="true"  />
+<Field name="pr2_appr_impv" type="numeric" nullable="true" size="9" format="#########" pcl_section="true"  />
+<Field name="pr2_appr_land" type="numeric" nullable="true" size="9" format="#########" pcl_section="true"  />
+<Field name="pr2_appr_total" type="numeric" nullable="true" size="11" format="###########" pcl_section="true"  />
+<Field name="pr2_mkt_impv" type="numeric" nullable="true" size="9" format="#########" pcl_section="true"  />
+<Field name="pr2_mkt_land" type="numeric" nullable="true" size="9" format="#########" pcl_section="true"  />
+<Field name="pr2_mkt_total" type="numeric" nullable="true" size="11" format="###########" pcl_section="true"  />
+<Field name="pr2_net_tx_amt" type="numeric" nullable="true" size="12" format="#########0.00" pcl_section="true"  />
+<Field name="pr2_net_tx_amt_yr1" type="numeric" nullable="true" size="4" format="####" pcl_section="true"  />
+<Field name="pr2_net_tx_amt_yr2" type="numeric" nullable="true" size="4" format="####" pcl_section="true"  />
+<Field name="pr2_txbl_impv" type="numeric" nullable="true" size="9" format="#########" pcl_section="true"  />
+<Field name="pr2_txbl_land" type="numeric" nullable="true" size="9" format="#########" pcl_section="true"  />
+<Field name="pr2_txbl_total" type="numeric" nullable="true" size="11" format="###########" pcl_section="true"  />
+<Field name="AbsenteeOwnrInd" type="string" nullable="true" size="1" pcl_section="true"  />
+<Field name="appr_impv" type="numeric" nullable="true" size="9" format="#########" pcl_section="true"  />
+<Field name="appr_land" type="numeric" nullable="true" size="9" format="#########" pcl_section="true"  />
+<Field name="appr_total" type="numeric" nullable="true" size="11" format="###########" pcl_section="true"  />
+<Field name="asse_nm1" type="string" nullable="true" size="60" pcl_section="true"  />
+<Field name="CensusTractId" type="string" nullable="true" size="8" pcl_section="true"  />
+<Field name="DelinqTaxAmt" type="numeric" nullable="true" size="12" format="#########0.00" pcl_section="true"  />
+<Field name="DelinqTaxBegYy" type="numeric" nullable="true" size="4" format="####" pcl_section="true"  />
+<Field name="DelinqTaxEndYy" type="numeric" nullable="true" size="4" format="####" pcl_section="true"  />
+<Field name="delinquent_tx_amt" type="numeric" nullable="true" size="12" format="#########0.00" pcl_section="true"  />
+<Field name="delinquent_tx_dt" type="numeric" nullable="true" size="8" format="########" pcl_section="true"  />
+<Field name="delinquent_tx_ind" type="string" nullable="true" size="1" pcl_section="true"  />
+<Field name="delinquent_tx_yr" type="numeric" nullable="true" size="4" format="####" pcl_section="true"  />
+<Field name="doc_nbr" type="string" nullable="true" size="12" pcl_section="true"  />
+<Field name="elem_dist" type="string" nullable="true" size="20" pcl_section="true"  />
+<Field name="fi_gas_svc" type="string" nullable="true" size="3" pcl_section="true"  />
+<Field name="gas_svc" type="string" nullable="true" size="3" pcl_section="true"  />
+<Field name="hs_dist" type="string" nullable="true" size="20" pcl_section="true"  />
+<Field name="LiLndAcresTtl" type="numeric" nullable="true" size="14" format="#########0.0000" pcl_section="true"  />
+<Field name="LiLndSqFtTtl" type="numeric" nullable="true" size="9" format="#########" pcl_section="true"  />
+<Field name="LndDimDepthNbr_03" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="LndDimDepthNbr_04" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="LndDimDepthNbr_05" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="LndDimDepthNbr_06" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="LndDimDepthNbr_07" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="LndDimDepthNbr_08" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="LndDimDepthNbr_09" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="LndDimDepthNbr_10" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="LndDimDepthNbr_11" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="LndDimDepthNbr_12" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="LndDimDepthNbr_13" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="LndDimDepthNbr_14" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="LndDimDepthNbr_15" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="LndDimDepthNbr_16" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="LndDimDepthNbr_17" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="LndDimDepthNbr_18" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="LndDimDepthNbr_19" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="LndDimDepthNbr_20" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="LndDimFrontNbr_03" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="LndDimFrontNbr_04" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="LndDimFrontNbr_05" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="LndDimFrontNbr_06" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="LndDimFrontNbr_07" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="LndDimFrontNbr_08" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="LndDimFrontNbr_09" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="LndDimFrontNbr_10" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="LndDimFrontNbr_11" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="LndDimFrontNbr_12" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="LndDimFrontNbr_13" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="LndDimFrontNbr_14" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="LndDimFrontNbr_15" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="LndDimFrontNbr_16" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="LndDimFrontNbr_17" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="LndDimFrontNbr_18" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="LndDimFrontNbr_19" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="LndDimFrontNbr_20" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="lot_depth2" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="lot_front2" type="numeric" nullable="true" size="10" format="#######0.00" pcl_section="true"  />
+<Field name="map_ref3" type="string" nullable="true" size="15" pcl_section="true"  />
+<Field name="map_ref3_typ" type="string" nullable="true" size="2" pcl_section="true"  />
+<Field name="mkt_impv" type="numeric" nullable="true" size="9" format="#########" pcl_section="true"  />
+<Field name="mkt_land" type="numeric" nullable="true" size="9" format="#########" pcl_section="true"  />
+<Field name="mkt_total" type="numeric" nullable="true" size="11" format="###########" pcl_section="true"  />
+<Field name="multi_ownr_ind" type="string" nullable="true" size="1" pcl_section="true"  />
+<Field name="multi_ownr_nbr" type="numeric" nullable="true" size="3" format="###" pcl_section="true"  />
+<Field name="net_tx_amt" type="numeric" nullable="true" size="12" format="#########0.00" pcl_section="true"  />
+<Field name="net_tx_amt_yr1" type="numeric" nullable="true" size="4" format="####" pcl_section="true"  />
+<Field name="net_tx_amt_yr2" type="numeric" nullable="true" size="4" format="####" pcl_section="true"  />
+<Field name="OwnrOccupiedInd" type="string" nullable="true" size="1" pcl_section="true"  />
+<Field name="pcl_typ" type="string" nullable="true" size="1" pcl_section="true"  />
+<Field name="price" type="numeric" nullable="true" size="11" format="###########" pcl_section="true"  />
+<Field name="rd_typ" type="string" nullable="true" size="10" pcl_section="true"  />
+<Field name="rec_bk" type="string" nullable="true" size="6" pcl_section="true"  />
+<Field name="rec_dt" type="numeric" nullable="true" size="8" format="########" pcl_section="true"  />
+<Field name="rec_pg" type="string" nullable="true" size="6" pcl_section="true"  />
+<Field name="sale_dt" type="numeric" nullable="true" size="8" format="########" pcl_section="true"  />
+<Field name="schl_dist" type="string" nullable="true" size="20" pcl_section="true"  />
+<Field name="schl_dist_nm" type="string" nullable="true" size="30" pcl_section="true"  />
+<Field name="StdSubdCd" type="numeric" nullable="true" size="10" format="##########" pcl_section="true"  />
+<Field name="ThomasPgGridNbr" type="string" nullable="true" size="11" pcl_section="true"  />
+<Field name="txbl_impv" type="numeric" nullable="true" size="9" format="#########" pcl_section="true"  />
+<Field name="txbl_land" type="numeric" nullable="true" size="9" format="#########" pcl_section="true"  />
+<Field name="txbl_val" type="numeric" nullable="true" size="11" format="###########" pcl_section="true"  />
+<Field name="attic" type="string" nullable="true" size="3" pcl_section="false"  />
+<Field name="attic_sf" type="numeric" nullable="true" size="7" format="#######" pcl_section="false"  />
+<Field name="bath_tot" type="numeric" nullable="true" size="6" format="###0.00" pcl_section="false"  />
+<Field name="bdrms" type="numeric" nullable="true" size="4" format="####" pcl_section="false"  />
+<Field name="bld_id" type="numeric" nullable="true" size="3" format="###" pcl_section="false"  />
+<Field name="bsmt_sf" type="numeric" nullable="true" size="7" format="#######" pcl_section="false"  />
+<Field name="bsmt_typ" type="string" nullable="true" size="3" pcl_section="false"  />
+<Field name="carport" type="string" nullable="true" size="3" pcl_section="false"  />
+<Field name="carport_sf" type="numeric" nullable="true" size="7" format="#######" pcl_section="false"  />
+<Field name="comm_units" type="numeric" nullable="true" size="4" format="####" pcl_section="false"  />
+<Field name="eff_yr" type="numeric" nullable="true" size="4" format="####" pcl_section="false"  />
+<Field name="ext_wall" type="string" nullable="true" size="3" pcl_section="false"  />
+<Field name="fi_attic_sf" type="numeric" nullable="true" size="7" format="#######" pcl_section="false"  />
+<Field name="fi_bath_tot" type="numeric" nullable="true" size="6" format="###0.00" pcl_section="false"  />
+<Field name="fi_bdrms" type="numeric" nullable="true" size="5" format="#####" pcl_section="false"  />
+<Field name="fi_bsmt_sf" type="numeric" nullable="true" size="7" format="#######" pcl_section="false"  />
+<Field name="fi_bsmt_typ" type="string" nullable="true" size="3" pcl_section="false"  />
+<Field name="fi_carport_sf" type="numeric" nullable="true" size="7" format="#######" pcl_section="false"  />
+<Field name="fi_comm_units" type="numeric" nullable="true" size="5" format="#####" pcl_section="false"  />
+<Field name="fi_eff_yr" type="numeric" nullable="true" size="4" format="####" pcl_section="false"  />
+<Field name="fi_ext_wall" type="string" nullable="true" size="3" pcl_section="false"  />
+<Field name="fi_fp_nbr" type="numeric" nullable="true" size="3" format="###" pcl_section="false"  />
+<Field name="fi_frst_flr_sf" type="numeric" nullable="true" size="7" format="#######" pcl_section="false"  />
+<Field name="fi_grade" type="string" nullable="true" size="3" pcl_section="false"  />
+<Field name="fi_grg2_sf" type="numeric" nullable="true" size="7" format="#######" pcl_section="false"  />
+<Field name="fi_grg_sf" type="numeric" nullable="true" size="7" format="#######" pcl_section="false"  />
+<Field name="fi_grg_spcs" type="numeric" nullable="true" size="3" format="###" pcl_section="false"  />
+<Field name="fi_grg_typ" type="string" nullable="true" size="3" pcl_section="false"  />
+<Field name="fi_heat_fuel" type="string" nullable="true" size="3" pcl_section="false"  />
+<Field name="fi_heat_typ" type="string" nullable="true" size="3" pcl_section="false"  />
+<Field name="fi_liv_sf" type="numeric" nullable="true" size="9" format="#########" pcl_section="false"  />
+<Field name="fi_nbr_story" type="numeric" nullable="true" size="6" format="###0.00" pcl_section="false"  />
+<Field name="fi_pool" type="string" nullable="true" size="3" pcl_section="false"  />
+<Field name="fi_raw_bldg_sf" type="numeric" nullable="true" size="9" format="#########" pcl_section="false"  />
+<Field name="fi_res_units" type="numeric" nullable="true" size="5" format="#####" pcl_section="false"  />
+<Field name="fi_rf_cvr" type="string" nullable="true" size="3" pcl_section="false"  />
+<Field name="fi_rf_frame" type="string" nullable="true" size="3" pcl_section="false"  />
+<Field name="fi_rf_shape" type="string" nullable="true" size="3" pcl_section="false"  />
+<Field name="fi_rf_typ" type="string" nullable="true" size="3" pcl_section="false"  />
+<Field name="fi_sec_flr_sf" type="numeric" nullable="true" size="7" format="#######" pcl_section="false"  />
+<Field name="fi_solar_engy" type="string" nullable="true" size="3" pcl_section="false"  />
+<Field name="fi_story_typ" type="string" nullable="true" size="6" pcl_section="false"  />
+<Field name="fi_total_sf" type="numeric" nullable="true" size="9" format="#########" pcl_section="false"  />
+<Field name="fi_yr_blt" type="numeric" nullable="true" size="4" format="####" pcl_section="false"  />
+<Field name="fp_nbr" type="numeric" nullable="true" size="3" format="###" pcl_section="false"  />
+<Field name="frst_flr_sf" type="numeric" nullable="true" size="7" format="#######" pcl_section="false"  />
+<Field name="grade" type="string" nullable="true" size="3" pcl_section="false"  />
+<Field name="grg2_sf" type="numeric" nullable="true" size="7" format="#######" pcl_section="false"  />
+<Field name="grg_cap_cd" type="string" nullable="true" size="3" pcl_section="false"  />
+<Field name="grg_sf" type="numeric" nullable="true" size="7" format="#######" pcl_section="false"  />
+<Field name="grg_spcs" type="numeric" nullable="true" size="3" format="###" pcl_section="false"  />
+<Field name="grg_typ" type="string" nullable="true" size="3" pcl_section="false"  />
+<Field name="grg_typ2" type="string" nullable="true" size="3" pcl_section="false"  />
+<Field name="heat_fuel" type="string" nullable="true" size="3" pcl_section="false"  />
+<Field name="heat_fuel2" type="string" nullable="true" size="3" pcl_section="false"  />
+<Field name="heat_typ" type="string" nullable="true" size="3" pcl_section="false"  />
+<Field name="heat_typ2" type="string" nullable="true" size="3" pcl_section="false"  />
+<Field name="liv_sf" type="numeric" nullable="true" size="9" format="#########" pcl_section="false"  />
+<Field name="mh_yr_blt" type="numeric" nullable="true" size="4" format="####" pcl_section="false"  />
+<Field name="nbr_story" type="numeric" nullable="true" size="6" format="###0.00" pcl_section="false"  />
+<Field name="pool" type="string" nullable="true" size="3" pcl_section="false"  />
+<Field name="prkg" type="string" nullable="true" size="3" pcl_section="false"  />
+<Field name="raw_bldg_sf" type="numeric" nullable="true" size="9" format="#########" pcl_section="false"  />
+<Field name="res_units" type="numeric" nullable="true" size="4" format="####" pcl_section="false"  />
+<Field name="rf_cvr" type="string" nullable="true" size="3" pcl_section="false"  />
+<Field name="rf_frame" type="string" nullable="true" size="3" pcl_section="false"  />
+<Field name="rf_shape" type="string" nullable="true" size="3" pcl_section="false"  />
+<Field name="rf_typ" type="string" nullable="true" size="3" pcl_section="false"  />
+<Field name="sec_flr_sf" type="numeric" nullable="true" size="7" format="#######" pcl_section="false"  />
+<Field name="solar_engy" type="string" nullable="true" size="3" pcl_section="false"  />
+<Field name="story_typ" type="string" nullable="true" size="6" pcl_section="false"  />
+<Field name="total_sf" type="numeric" nullable="true" size="9" format="#########" pcl_section="false"  />
+<Field name="yr_blt" type="numeric" nullable="true" size="4" format="####" pcl_section="false"  />
+</Record>
